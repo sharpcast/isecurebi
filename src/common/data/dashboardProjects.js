@@ -40,6 +40,17 @@ const projectsWidgets = [
         percentage: "10.35 %",
         caption: "Work this month",
         subCounter: [ {id:1, counter: "168", suffix: "h" }, {id:1, counter: "40", suffix: "m"}]
+    },
+    {
+        id: 4,
+        feaIcon: "star",
+        feaIconClass: "info",
+        label: "Total Hours",
+        badgeClass: "danger",
+        icon: "ri-arrow-down-s-line",
+        percentage: "10.35 %",
+        caption: "Work this month",
+        subCounter: [ {id:1, counter: "168", suffix: "h" }, {id:1, counter: "40", suffix: "m"}]
     }
 ];
 

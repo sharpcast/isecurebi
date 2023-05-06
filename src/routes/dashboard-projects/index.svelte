@@ -5,13 +5,13 @@
 	import { Col, Container, Row } from 'sveltestrap';
 
 	import BreadCrumb from '../../Components/Common/BreadCrumb.svelte';
-	import ActiveProjects from './ActiveProjects.svelte';
-	import Chat from './Chat.svelte';
-	import MyTasks from './MyTasks.svelte';
+	// import ActiveProjects from './ActiveProjects.svelte';
+	// import Chat from './Chat.svelte';
+	// import MyTasks from './MyTasks.svelte';
 	import ProjectsOverview from './ProjectsOverview.svelte';
-	import ProjectsStatus from './ProjectsStatus.svelte';
-	import TeamMembers from './TeamMembers.svelte';
-	import UpcomingSchedules from './UpcomingSchedules.svelte';
+	// import ProjectsStatus from './ProjectsStatus.svelte';
+	// import TeamMembers from './TeamMembers.svelte';
+	// import UpcomingSchedules from './UpcomingSchedules.svelte';
 	import Widgets from './Widgets.svelte';
 
     import data from '../../common/data/dashboardProjects';
@@ -26,16 +26,16 @@
 				<Widgets projectsWidgets={data.projectsWidgets} />
 				<ProjectsOverview />
 			</Col>
-			<UpcomingSchedules />
+			<!-- <UpcomingSchedules /> -->
 		</Row>
-		<Row>
+		<!-- <Row>
 			<ActiveProjects activeProjects={data.activeProjects} />
 			<MyTasks projectTasks={data.projectTasks} />
-		</Row>
-		<Row>
+		</Row> -->
+		<!-- <Row>
 			<TeamMembers teamMembers={data.teamMembers} />
 			<Chat />
 			<ProjectsStatus />
-		</Row>
+		</Row> -->
 	</Container>
 </div>

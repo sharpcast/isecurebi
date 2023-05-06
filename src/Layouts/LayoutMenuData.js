@@ -7,7 +7,7 @@ const Navdata = [
 		id: 'home',
 		label: 'Home',
 		icon: 'ri-home-4-line',
-		link: '/dashboard-projects',
+		link: '/dashboard',
 		stateVariables: "isHome",
 		// subItems: [
 		// 	// {
@@ -56,6 +56,17 @@ const Navdata = [
 		// 	// 	badgeName: "New",
 		// 	// },
 		// ]
+	},
+	{
+		id: 'reports',
+		label: 'Reports',
+		icon: 'ri-file-chart-line',
+		link: '/#',
+		stateVariables: "isReport",
+		subItems: [
+			{ id: 'viewrisks', label: 'Risks', link: '/reports/viewrisks', parentId: 'reports' },
+			{ id: 'viewaudits', label: 'Audits', link: '/reports/viewaudits', parentId: 'reports' }
+		]
 	},
 	// {
 	// 	id: 'apps',
@@ -562,7 +573,6 @@ const Navdata = [
 	// 		{ id: 'highlight', label: 'Highlight', link: '/advanceUi/advance-ui-highlight', parentId: 'advanceUi' }
 	// 	]
 	// },
-	
 	{
 		id: 'rules',
 		label: 'Rules',
@@ -570,15 +580,15 @@ const Navdata = [
 		link: '/#',
 		stateVariables: "isRules",
 		subItems: [
-			{ id: 'basictables', label: 'Manage Rules', link: '/connections/ManageConnections', parentId: 'rules' }
+			{ id: 'viewrules', label: 'Manage Rules', link: '/rules/viewrules', parentId: 'rules' }
 		]
 	},
-	{
-		id: 'widgets',
-		label: 'Widgets',
-		icon: 'ri-honour-line',
-		link: '/Widgets/widget',
-	},
+	// {
+	// 	id: 'widgets',
+	// 	label: 'Widgets',
+	// 	icon: 'ri-honour-line',
+	// 	link: '/Widgets/widget',
+	// },
 	// {
 	// 	id: 'forms',
 	// 	label: 'Forms',
@@ -617,25 +627,26 @@ const Navdata = [
 	// 	]
 	// },
 	{
-		id: 'connections',
-		label: 'Connections',
-		icon: 'ri-usb-line',
+		id: 'data',
+		label: 'Data',
+		icon: 'ri-database-2-line',
 		link: '/#',
-		stateVariables: "isTables",
+		stateVariables: "isData",
 		subItems: [
-			{ id: 'basictables', label: 'Manage Connections', link: '/connections/ManageConnections', parentId: 'connections' },
-			{ id: 'gridjs', label: 'Add Connection', link: '/connections/AddConnection', parentId: 'connections' }
+			{ id: 'getdata', label: 'Get Data', link: '/data/getdata', parentId: 'data' },
+			{ id: 'dataview', label: 'Data View', link: '/data/dataview', parentId: 'data' },
+			{ id: 'modelview', label: 'Model View', link: '/data/modelview', parentId: 'data' },
 		]
 	},
 	{
 		id: 'users',
-		label: 'Users',
+		label: 'Users & Groups',
 		icon: 'ri-group-line',
 		link: '/#',
 		stateVariables: "isTables",
 		subItems: [
-			{ id: 'basictables', label: 'Manage Users', link: '/tables/basictables/tables-basic', parentId: 'users' },
-			{ id: 'gridjs', label: 'Add User', link: '/tables/gridjs/tables-gridjs', parentId: 'users' }
+			{ id: 'viewusers', label: 'Users', link: '/users/viewusers', parentId: 'users' },
+			{ id: 'viewgroups', label: 'Groups', link: '/users/viewgroups', parentId: 'users' }
 		]
 	},
 	{
@@ -645,8 +656,7 @@ const Navdata = [
 		link: '/#',
 		stateVariables: "isTables",
 		subItems: [
-			{ id: 'basictables', label: 'Manage Roles', link: '/tables/basictables/tables-basic', parentId: 'roles' },
-			{ id: 'gridjs', label: 'Add Role', link: '/tables/gridjs/tables-gridjs', parentId: 'roles' }
+			{ id: 'viewroles', label: 'Roles', link: '/roles/viewroles', parentId: 'roles' }
 		]
 	},
 	{
@@ -656,8 +666,8 @@ const Navdata = [
 		link: '/#',
 		stateVariables: "isExclusion",
 		subItems: [
-			{ id: 'basictables', label: 'Excluded Users', link: '/connections/ManageConnections', parentId: 'exclusions' },
-			{ id: 'basictables', label: 'Excluded Locations', link: '/connections/ManageConnections', parentId: 'exclusions' }
+			{ id: 'userexclusions', label: 'Excluded Users', link: '/exclusions/userexclusions', parentId: 'exclusions' }
+		
 		]
 	},
 	{
@@ -667,7 +677,7 @@ const Navdata = [
 		link: '/#',
 		stateVariables: "isTables",
 		subItems: [
-			{ id: 'basictables', label: 'Notifications', link: '/tables/basictables/tables-basic', parentId: 'settings' },
+			{ id: 'notifications', label: 'Notifications', link: '/settings/notifications', parentId: 'settings' },
 			
 		]
 	},

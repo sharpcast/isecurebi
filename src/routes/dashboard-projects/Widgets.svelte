@@ -6,7 +6,7 @@
 
 <Row>
 	{#each projectsWidgets as item}
-		<Col xl={4}>
+		<Col xl={3}>
 			<Card class="card-animate">
 				<CardBody>
 					<div class="d-flex align-items-center">

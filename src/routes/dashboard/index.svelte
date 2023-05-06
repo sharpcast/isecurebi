@@ -1,14 +1,14 @@
 <script>
 	import { Container, Row, Col } from "sveltestrap";
 	import BreadCrumb from "../../Components/Common/BreadCrumb.svelte";
-	import Section from "./Section.svelte";
+	// import Section from "./Section.svelte";
 	import Widget from "./Widgets.svelte";
 	import Revenue from "./Revenue.svelte";
-	import SalesByLocations from "./SalesByLocations.svelte";
-	import BestSellingProducts from "./BestSellingProducts.svelte";
-	import TopSellers from "./TopSellers.svelte";
-	import StoreVisits from "./StoreVisits.svelte";
-	import RecentOrders from "./RecentOrders.svelte";
+	// import SalesByLocations from "./SalesByLocations.svelte";
+	// import BestSellingProducts from "./BestSellingProducts.svelte";
+	// import TopSellers from "./TopSellers.svelte";
+	// import StoreVisits from "./StoreVisits.svelte";
+	// import RecentOrders from "./RecentOrders.svelte";
 	import RecentActivity from "./RecentActivity.svelte";
 	import Counter from "../../Components/Common/counter.svelte";
 </script>
@@ -21,28 +21,28 @@
 <div class="page-content">
 	<Container fluid>
 		<BreadCrumb title="Dashboard" pageTitle="Dashboards" />
-
 		<Row>
 			<Col>
 				<div class="h-100">
-					<Section />
+					<!-- <Section /> -->
 					<Row>
 						<Widget />
 					</Row>
 					<Row>
-						<Col xl={8}>
+						<Col>
 							<Revenue />
 						</Col>
-						<SalesByLocations />
+						
+						<!-- <SalesByLocations /> -->
 					</Row>
-					<Row>
+					<!-- <Row>
 						<BestSellingProducts />
 						<TopSellers />
-					</Row>
-					<Row>
+					</Row> -->
+					<!-- <Row>
 						<StoreVisits dataColors={["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]} />
 						<RecentOrders />
-					</Row>
+					</Row> -->
 				</div>
 			</Col>
 			<RecentActivity />
