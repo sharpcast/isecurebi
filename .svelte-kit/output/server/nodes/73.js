@@ -1,0 +1,6 @@
+import * as module from '../entries/pages/dashboard-crm/index.svelte.js';
+
+export { module };
+export const entry = 'pages/dashboard-crm/index.svelte-66b97c03.js';
+export const js = ["pages/dashboard-crm/index.svelte-66b97c03.js","chunks/vendor-bc251f35.js","chunks/BreadCrumb-351b84b0.js","pages/dashboard-crm/BalanceOverview.svelte-074e70d8.js","pages/dashboard-crm/BalanceOverviewCharts.svelte-e23dc507.js","pages/dashboard-crm/ClosingDeals.svelte-6d92bde9.js","chunks/dashboardcrm-c5028973.js","chunks/avatar-1-413c6ccd.js","chunks/avatar-2-5b5618a1.js","chunks/avatar-3-5bcc58a8.js","chunks/avatar-4-3a2dbf60.js","chunks/avatar-5-c7d43f40.js","chunks/avatar-6-ef07d98c.js","chunks/avatar-7-46aa251f.js","chunks/avatar-8-f9de7a45.js","pages/dashboard-crm/DealsStatus.svelte-62d177d2.js","pages/dashboard-crm/DealType.svelte-9a24397e.js","pages/dashboard-crm/DealTypeCharts.svelte-dcff4648.js","pages/dashboard-crm/MyTasks.svelte-14914bf4.js","pages/dashboard-crm/SalesForecast.svelte-e3b1cb40.js","pages/dashboard-crm/DashboardCrmCharts.svelte-ae977b0a.js","pages/dashboard-crm/UpcomingActivities.svelte-cdfcea66.js","pages/dashboard-crm/Widgets.svelte-b5e858c4.js","chunks/counter-04ef4ff6.js"];
+export const css = ["assets/vendor-84faa040.css"];

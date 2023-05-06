@@ -1,0 +1,6 @@
+import * as module from '../entries/pages/dashboard-projects/index.svelte.js';
+
+export { module };
+export const entry = 'pages/dashboard-projects/index.svelte-b52e424f.js';
+export const js = ["pages/dashboard-projects/index.svelte-b52e424f.js","chunks/vendor-bc251f35.js","chunks/BreadCrumb-351b84b0.js","pages/dashboard-projects/ActiveProjects.svelte-8747fb02.js","pages/dashboard-projects/Chat.svelte-332b9128.js","chunks/avatar-2-5b5618a1.js","chunks/avatar-1-413c6ccd.js","chunks/img-1-6a9b26f3.js","chunks/img-2-d003c89a.js","pages/dashboard-projects/MyTasks.svelte-7d23906f.js","pages/dashboard-projects/ProjectsOverview.svelte-253baa28.js","pages/dashboard-projects/ProjectsOverviewCharts.svelte-67f1939e.js","pages/dashboard-projects/ProjectsStatus.svelte-519b9acb.js","pages/dashboard-projects/PrjectsStatusCharts.svelte-eef7358a.js","pages/dashboard-projects/TeamMembers.svelte-f8ccd911.js","pages/dashboard-projects/TeamMembersCharts.svelte-2bff0532.js","pages/dashboard-projects/UpcomingSchedules.svelte-1f74c157.js","pages/dashboard-projects/Widgets.svelte-ce305048.js","chunks/avatar-3-5bcc58a8.js","chunks/avatar-4-3a2dbf60.js","chunks/avatar-5-c7d43f40.js","chunks/avatar-6-ef07d98c.js","chunks/avatar-7-46aa251f.js","chunks/avatar-8-f9de7a45.js","chunks/counter-04ef4ff6.js"];
+export const css = ["assets/vendor-84faa040.css"];

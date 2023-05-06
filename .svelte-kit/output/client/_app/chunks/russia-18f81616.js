@@ -1,0 +1,1 @@
+var a="/_app/assets/us-e8272934.svg",s="/_app/assets/spain-d44cd62e.svg",g="/_app/assets/germany-b211b681.svg",p="/_app/assets/italy-a90c4215.svg",r="/_app/assets/russia-47a7b107.svg";export{g,p as i,r,s,a as u};
