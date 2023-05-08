@@ -1,6 +1,6 @@
-import * as module from '../entries/pages/dashboard-analytics/Widget.svelte.js';
+import * as module from '../entries/pages/pages/pages-coming-soon.svelte.js';
 
 export { module };
-export const entry = 'pages/dashboard-analytics/Widget.svelte-466b4f4c.js';
-export const js = ["pages/dashboard-analytics/Widget.svelte-466b4f4c.js","chunks/vendor-bc251f35.js"];
-export const css = ["assets/vendor-84faa040.css"];
+export const entry = 'pages/pages/pages-coming-soon.svelte-0e839653.js';
+export const js = ["pages/pages/pages-coming-soon.svelte-0e839653.js","chunks/vendor-28b6e00c.js","pages/authenticationInner/ParticlesAuth.svelte-5405bf4e.js"];
+export const css = ["assets/vendor-28d9e71a.css"];

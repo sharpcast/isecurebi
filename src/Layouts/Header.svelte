@@ -4,10 +4,7 @@
 
 	import SearchOption from "./../Components/Common/SearchOption.svelte";
 	import LanguageDropdown from "./../Components/Common/LanguageDropdown.svelte";
-	import WebAppsDropdown from "./../Components/Common/WebAppsDropdown.svelte";
-	import MyCartDropdown from "./../Components/Common/MyCartDropdown.svelte";
-	import FullScreenDropdown from "./../Components/Common/FullScreenDropdown.svelte";
-	import NotificationDropdown from "./../Components/Common/NotificationDropdown.svelte";
+	
 	import ProfileDropdown from "./../Components/Common/ProfileDropdown.svelte";
 	import LightDark from "./../Components/Common/LightDark.svelte";
 

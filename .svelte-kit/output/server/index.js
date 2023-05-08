@@ -17,7 +17,7 @@ var __privateSet = (obj, member, value, setter) => {
   return value;
 };
 var _use_hashes, _dev, _script_needs_csp, _style_needs_csp, _directives, _script_src, _style_src;
-import { c as create_ssr_component, s as setContext, v as validate_component, m as missing_component } from "./chunks/index-584434b3.js";
+import { c as create_ssr_component, s as setContext, v as validate_component, m as missing_component } from "./chunks/index-aeca7bd0.js";
 function afterUpdate() {
 }
 const Root = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -1914,7 +1914,7 @@ var user_hooks = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module"
 });
-const template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>Dashboard | Velzon - Admin & Dashboard Template</title>\n		<meta name="viewport" content="width=device-width, initial-scale=1.0">\n		<meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />\n		<meta content="Themesbrand" name="author" />\n		<link rel="shortcut icon" href="/src/assets/images/favicon.ico">\n		\n		<script src="//unpkg.com/simplebar@latest/dist/simplebar.min.js" type="module"><\/script>\n\n        <script src="//cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js" type="module"><\/script>\n\n		<script src="//cdn.lordicon.com/xdjxvujz.js" type="module"><\/script>\n\n		<script defer async src="//maps.googleapis.com/maps/api/js?key=AIzaSyCtSAR45TFgZjOs4nBFFZnII-6mMHLfSYI&callback=initMap"><\/script>\n		\n		' + head + '\n	</head>\n	<body>\n		<div id="svelte">' + body + "</div>\n	</body>\n</html>";
+const template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>iSecureBI Dashboard</title>\n		<link rel="icon" href="%sveltekit.assets%/favicon.png" />\n		<meta name="viewport" content="width=device-width, initial-scale=1.0">\n		<meta content="iSecureBI Dashboard" name="description" />\n		<meta content="Sharpcast" name="author" />\n		<link rel="shortcut icon" href="/src/assets/images/favicon.ico">\n		<script src="//unpkg.com/simplebar@latest/dist/simplebar.min.js" type="module"><\/script>\n\n        <script src="//cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js" type="module"><\/script>\n\n		<script src="//cdn.lordicon.com/xdjxvujz.js" type="module"><\/script>\n		\n		' + head + '\n	</head>\n	<body data-sveltekit-preload-data="hover">\n		<div style="display: contents">' + body + "</div>\n	</body>\n</html>\n";
 let read = null;
 set_paths({ "base": "", "assets": "" });
 const get_hooks = (hooks) => ({

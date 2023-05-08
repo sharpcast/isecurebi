@@ -13,9 +13,6 @@
 	import Counter from "../../Components/Common/counter.svelte";
 </script>
 
-<svelte:head>
-	<title>Dashboard | Velzon - Svelte Admin & Dashboard Template</title>
-</svelte:head>
 
 <Counter />
 <div class="page-content">
@@ -31,18 +28,8 @@
 					<Row>
 						<Col>
 							<Revenue />
-						</Col>
-						
-						<!-- <SalesByLocations /> -->
+						</Col>		
 					</Row>
-					<!-- <Row>
-						<BestSellingProducts />
-						<TopSellers />
-					</Row> -->
-					<!-- <Row>
-						<StoreVisits dataColors={["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]} />
-						<RecentOrders />
-					</Row> -->
 				</div>
 			</Col>
 			<RecentActivity />

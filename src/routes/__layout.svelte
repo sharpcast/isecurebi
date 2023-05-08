@@ -27,9 +27,6 @@
 		"/authenticationInner/errors/auth-offline",
 		"/pages/pages-maintenance",
 		"/pages/pages-coming-soon",
-		"/landing/OnePage",
-		"/landing/Job",
-		"/landing/NFTLanding",
 	];
 
 	$: isPublic = publicRoutes.includes($page.url.pathname);

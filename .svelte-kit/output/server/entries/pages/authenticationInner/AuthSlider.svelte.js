@@ -1,8 +1,8 @@
-import { c as create_ssr_component, h as compute_rest_props, p as createEventDispatcher, j as spread, l as escape_attribute_value, k as escape_object, d as add_attribute, v as validate_component } from "../../../chunks/index-584434b3.js";
-import { C as Col } from "../../../chunks/Col-cf9b7547.js";
-import "../../../chunks/Offcanvas.svelte_svelte_type_style_lang-0a4a6cc1.js";
-import { L as Link } from "../../../chunks/Link-71b36253.js";
-import { L as LogoLight } from "../../../chunks/logo-light-461ccdee.js";
+import { c as create_ssr_component, d as compute_rest_props, e as createEventDispatcher, f as spread, h as escape_attribute_value, j as escape_object, k as add_attribute, v as validate_component } from "../../../chunks/index-aeca7bd0.js";
+import { C as Col } from "../../../chunks/Col-eedb9365.js";
+import "../../../chunks/Offcanvas.svelte_svelte_type_style_lang-145966ab.js";
+import { L as Link } from "../../../chunks/Link-ec28a239.js";
+import { l as logolight } from "../../../chunks/logo-light-189a80ba.js";
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -144,7 +144,7 @@ const AuthSlider = create_ssr_component(($$result, $$props, $$bindings, slots) =
       return `<div class="${"p-lg-5 p-4 auth-one-bg h-100"}"><div class="${"bg-overlay"}"></div>
 		<div class="${"position-relative h-100 d-flex flex-column"}"><div class="${"mb-4"}">${validate_component(Link, "Link").$$render($$result, { href: "/dashboard", class: "d-block" }, {}, {
         default: () => {
-          return `<img${add_attribute("src", LogoLight, 0)} alt="${""}" height="${"18"}">`;
+          return `<img${add_attribute("src", logolight, 0)} alt="${""}" height="${"18"}">`;
         }
       })}</div>
 			<div class="${"mt-auto"}"><div class="${"mb-3"}"><i class="${"ri-double-quotes-l display-4 text-success"}"></i></div>

@@ -1,6 +1,6 @@
-import * as module from '../entries/pages/dashboard-analytics/UpgradeAccountNotise.svelte.js';
+import * as module from '../entries/pages/exclusions/userexclusions.svelte.js';
 
 export { module };
-export const entry = 'pages/dashboard-analytics/UpgradeAccountNotise.svelte-62f3eff6.js';
-export const js = ["pages/dashboard-analytics/UpgradeAccountNotise.svelte-62f3eff6.js","chunks/vendor-bc251f35.js","chunks/user-illustarator-2-5db54d81.js"];
-export const css = ["assets/vendor-84faa040.css"];
+export const entry = 'pages/exclusions/userexclusions.svelte-c1fb928c.js';
+export const js = ["pages/exclusions/userexclusions.svelte-c1fb928c.js","chunks/vendor-28b6e00c.js"];
+export const css = ["assets/vendor-28d9e71a.css"];

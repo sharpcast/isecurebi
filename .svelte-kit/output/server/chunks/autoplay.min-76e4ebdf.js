@@ -1,1 +1,0 @@
-var autoplay_min = "";

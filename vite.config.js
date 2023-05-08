@@ -18,7 +18,7 @@ export default defineConfig({
     preprocess: sveltePreprocess()
   })
   ],
-  optimizeDeps: {
-    include: ['svelte-apexcharts']
-  }
+  // optimizeDeps: {
+  //   include: ['svelte-apexcharts']
+  // }
 });

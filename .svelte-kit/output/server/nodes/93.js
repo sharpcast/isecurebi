@@ -1,6 +1,0 @@
-import * as module from '../entries/pages/dashboard-nft/index.svelte.js';
-
-export { module };
-export const entry = 'pages/dashboard-nft/index.svelte-48d4c4d2.js';
-export const js = ["pages/dashboard-nft/index.svelte-48d4c4d2.js","chunks/vendor-bc251f35.js","chunks/BreadCrumb-351b84b0.js","pages/dashboard-nft/Widgets.svelte-50e3c160.js","chunks/counter-04ef4ff6.js","pages/dashboard-nft/Marketplace.svelte-b848b8b3.js","pages/dashboard-nft/DashboardNFTCharts.svelte-b594a114.js","pages/dashboard-nft/Popularity.svelte-c72f08a9.js","chunks/dashboardNFT-8513f480.js","chunks/img-06-fae769a6.js","chunks/img-04-688285cd.js","chunks/avatar-8-f9de7a45.js","chunks/avatar-10-def8cdb7.js","chunks/avatar-1-413c6ccd.js","chunks/ltc-734c3a3e.js","chunks/usdt-bb1667f7.js","chunks/dash-a9bce606.js","pages/dashboard-nft/PopularityChart.svelte-13a9e05c.js","pages/dashboard-nft/FeaturedNFT.svelte-ee9ad427.js","chunks/autoplay.min-76e4ebdf.js","pages/dashboard-nft/TopArtworkChart.svelte-f8994faa.js","pages/dashboard-nft/RecentNFTs.svelte-f803c50b.js","chunks/russia-18f81616.js","chunks/Map-e1ee7aed.js"];
-export const css = ["assets/swiper.min-9f120647.css","assets/pagination.min-98601d46.css","assets/navigation.min-f9a2afab.css","assets/effect-flip.min-07de9fd7.css","assets/effect-fade.min-41975e8e.css","assets/vendor-84faa040.css","assets/Map-5dbe4cde.css"];

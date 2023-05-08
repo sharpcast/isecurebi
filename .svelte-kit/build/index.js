@@ -1,11 +1,11 @@
 
 import root from '__GENERATED__/root.svelte';
-import { respond } from '/Work/iSecure/BI/iSecureBI/.svelte-kit/runtime/server/index.js';
-import { set_paths, assets, base } from '/Work/iSecure/BI/iSecureBI/.svelte-kit/runtime/paths.js';
-import { set_prerendering } from '/Work/iSecure/BI/iSecureBI/.svelte-kit/runtime/env.js';
+import { respond } from '/Work/iSecure/BI/iSecureBIAuth/.svelte-kit/runtime/server/index.js';
+import { set_paths, assets, base } from '/Work/iSecure/BI/iSecureBIAuth/.svelte-kit/runtime/paths.js';
+import { set_prerendering } from '/Work/iSecure/BI/iSecureBIAuth/.svelte-kit/runtime/env.js';
 import * as user_hooks from "./hooks.js";
 
-const template = ({ head, body, assets, nonce }) => "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<title>Dashboard | Velzon - Admin & Dashboard Template</title>\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t\t<meta content=\"Premium Multipurpose Admin & Dashboard Template\" name=\"description\" />\n\t\t<meta content=\"Themesbrand\" name=\"author\" />\n\t\t<link rel=\"shortcut icon\" href=\"/src/assets/images/favicon.ico\">\n\t\t\n\t\t<script src=\"//unpkg.com/simplebar@latest/dist/simplebar.min.js\" type=\"module\"></script>\n\n        <script src=\"//cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js\" type=\"module\"></script>\n\n\t\t<script src=\"//cdn.lordicon.com/xdjxvujz.js\" type=\"module\"></script>\n\n\t\t<script defer async src=\"//maps.googleapis.com/maps/api/js?key=AIzaSyCtSAR45TFgZjOs4nBFFZnII-6mMHLfSYI&callback=initMap\"></script>\n\t\t\n\t\t" + head + "\n\t</head>\n\t<body>\n\t\t<div id=\"svelte\">" + body + "</div>\n\t</body>\n</html>";
+const template = ({ head, body, assets, nonce }) => "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<title>iSecureBI Dashboard</title>\n\t\t<link rel=\"icon\" href=\"%sveltekit.assets%/favicon.png\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t\t<meta content=\"iSecureBI Dashboard\" name=\"description\" />\n\t\t<meta content=\"Sharpcast\" name=\"author\" />\n\t\t<link rel=\"shortcut icon\" href=\"/src/assets/images/favicon.ico\">\n\t\t<script src=\"//unpkg.com/simplebar@latest/dist/simplebar.min.js\" type=\"module\"></script>\n\n        <script src=\"//cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js\" type=\"module\"></script>\n\n\t\t<script src=\"//cdn.lordicon.com/xdjxvujz.js\" type=\"module\"></script>\n\t\t\n\t\t" + head + "\n\t</head>\n\t<body data-sveltekit-preload-data=\"hover\">\n\t\t<div style=\"display: contents\">" + body + "</div>\n\t</body>\n</html>\n";
 
 let read = null;
 

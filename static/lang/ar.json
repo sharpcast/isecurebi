@@ -203,13 +203,5 @@
     "API Key" : "مفتاح API",
     "Privacy Policy" : "سياسة الخصوصية",
     "Terms Condition" : "شروط الشرط",
-    "pages" : "الصفحات",
-    "Home": "بيت",
-    "Connections": "روابط",
-    "Manage Connections": "إدارة اتصالات",
-    "Add Connection": "إضافة اتصال",
-    "Users": "المستخدمون",
-    "Roles": "الأدوار",
-    "Rules": "قواعد",
-    "Manage Rules": "إدارة القواعد"
+    "pages" : "الصفحات"
 }

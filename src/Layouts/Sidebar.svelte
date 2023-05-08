@@ -2,8 +2,6 @@
 	//Import Components
 	import { Container } from "sveltestrap";
 	import VerticalLayout from "./VerticalLayout.svelte";
-	import HorizontalLayout from "./HorizontalLayout.svelte";
-	import TwoColumnLayout from "./TwoColumnLayout.svelte";
 
 	function removesidebar() {
 		document.body.classList.remove("vertical-sidebar-enable");
@@ -72,13 +70,13 @@
 			<div class="container-fluid">
 				<div id="two-column-menu" />
 				<ul class="navbar-nav" id="navbar-nav">
-					<HorizontalLayout />
+					<!-- <HorizontalLayout /> -->
 				</ul>
 			</div>
 			<!-- Sidebar -->
 		</div>
 	{:else if layoutType === "twocolumn"}
-		<TwoColumnLayout {layoutType} />
+		<!-- <TwoColumnLayout {layoutType} /> -->
 	{:else}
 		<div id="scrollbar" data-simplebar class="h-100">
 			<Container fluid>
@@ -93,4 +91,4 @@
 	<div class="sidebar-background"></div>
 </div>
 
-<div class="vertical-overlay" on:click|self={removesidebar} />
+<!-- <div class="vertical-overlay" on:click|self={removesidebar} /> -->

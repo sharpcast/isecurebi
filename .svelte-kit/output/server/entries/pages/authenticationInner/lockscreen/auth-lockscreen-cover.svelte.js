@@ -1,15 +1,15 @@
-import { c as create_ssr_component, v as validate_component, d as add_attribute, b as escape } from "../../../../chunks/index-584434b3.js";
-import { B as Button } from "../../../../chunks/Button-ba828d9c.js";
-import { C as Card } from "../../../../chunks/Card-f8372b29.js";
-import { C as Col } from "../../../../chunks/Col-cf9b7547.js";
-import { C as Container } from "../../../../chunks/Container-157811c5.js";
-import { L as Label } from "../../../../chunks/Label-1c7919d2.js";
-import "../../../../chunks/Offcanvas.svelte_svelte_type_style_lang-0a4a6cc1.js";
-import { R as Row } from "../../../../chunks/Row-089822f8.js";
+import { c as create_ssr_component, v as validate_component, k as add_attribute, l as escape } from "../../../../chunks/index-aeca7bd0.js";
+import { B as Button } from "../../../../chunks/Button-621c2412.js";
+import { C as Card } from "../../../../chunks/Card-4d474cdd.js";
+import { C as Col } from "../../../../chunks/Col-eedb9365.js";
+import { C as Container } from "../../../../chunks/Container-17fe0983.js";
+import { L as Label } from "../../../../chunks/Label-3fb4a0b5.js";
+import "../../../../chunks/Offcanvas.svelte_svelte_type_style_lang-145966ab.js";
+import { R as Row } from "../../../../chunks/Row-d6617eb9.js";
 import { a as avatar1 } from "../../../../chunks/avatar-1-413c6ccd.js";
 import AuthSlider from "../AuthSlider.svelte.js";
-import { L as Link } from "../../../../chunks/Link-71b36253.js";
-import "../../../../chunks/logo-light-461ccdee.js";
+import { L as Link } from "../../../../chunks/Link-ec28a239.js";
+import "../../../../chunks/logo-light-189a80ba.js";
 const Auth_lockscreen_cover = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${$$result.head += `${$$result.title = `<title>Lock Screen | Velzon - Svelte Admin &amp; Dashboard Template</title>`, ""}`, ""}
 <div class="${"auth-page-wrapper auth-bg-cover py-5 d-flex justify-content-center align-items-center min-vh-100"}"><div class="${"bg-overlay"}"></div>

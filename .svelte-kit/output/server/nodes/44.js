@@ -1,6 +1,6 @@
-import * as module from '../entries/pages/dashboard-projects/ProjectsOverview.svelte.js';
+import * as module from '../entries/pages/data/modelview.svelte.js';
 
 export { module };
-export const entry = 'pages/dashboard-projects/ProjectsOverview.svelte-253baa28.js';
-export const js = ["pages/dashboard-projects/ProjectsOverview.svelte-253baa28.js","chunks/vendor-bc251f35.js","pages/dashboard-projects/ProjectsOverviewCharts.svelte-67f1939e.js"];
-export const css = ["assets/vendor-84faa040.css"];
+export const entry = 'pages/data/modelview.svelte-bc742e6b.js';
+export const js = ["pages/data/modelview.svelte-bc742e6b.js","chunks/vendor-28b6e00c.js"];
+export const css = ["assets/vendor-28d9e71a.css"];

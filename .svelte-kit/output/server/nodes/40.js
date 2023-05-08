@@ -1,6 +1,6 @@
-import * as module from '../entries/pages/dashboard-projects/ProjectsOverviewCharts.svelte.js';
+import * as module from '../entries/pages/roles/viewroles.svelte.js';
 
 export { module };
-export const entry = 'pages/dashboard-projects/ProjectsOverviewCharts.svelte-67f1939e.js';
-export const js = ["pages/dashboard-projects/ProjectsOverviewCharts.svelte-67f1939e.js","chunks/vendor-bc251f35.js"];
-export const css = ["assets/vendor-84faa040.css"];
+export const entry = 'pages/roles/viewroles.svelte-f5501e44.js';
+export const js = ["pages/roles/viewroles.svelte-f5501e44.js","chunks/vendor-28b6e00c.js"];
+export const css = ["assets/vendor-28d9e71a.css"];

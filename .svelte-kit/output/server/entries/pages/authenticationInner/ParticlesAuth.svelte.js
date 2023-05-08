@@ -1,4 +1,4 @@
-import { c as create_ssr_component, p as createEventDispatcher, d as add_attribute, v as validate_component, b as escape } from "../../../chunks/index-584434b3.js";
+import { c as create_ssr_component, e as createEventDispatcher, k as add_attribute, v as validate_component, l as escape } from "../../../chunks/index-aeca7bd0.js";
 import { loadFull } from "tsparticles";
 class EventDispatcher {
   constructor() {

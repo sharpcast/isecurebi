@@ -1,6 +1,6 @@
 import * as module from '../entries/pages/authenticationInner/passwordcreate/auth-pass-change-cover.svelte.js';
 
 export { module };
-export const entry = 'pages/authenticationInner/passwordcreate/auth-pass-change-cover.svelte-a0d068cc.js';
-export const js = ["pages/authenticationInner/passwordcreate/auth-pass-change-cover.svelte-a0d068cc.js","chunks/vendor-bc251f35.js","pages/authenticationInner/AuthSlider.svelte-cc9ab810.js","chunks/logo-light-461ccdee.js"];
-export const css = ["assets/vendor-84faa040.css","assets/pages/authenticationInner/AuthSlider.svelte-e7fb34cc.css"];
+export const entry = 'pages/authenticationInner/passwordcreate/auth-pass-change-cover.svelte-352131d9.js';
+export const js = ["pages/authenticationInner/passwordcreate/auth-pass-change-cover.svelte-352131d9.js","chunks/vendor-28b6e00c.js","pages/authenticationInner/AuthSlider.svelte-755dd5f8.js","chunks/logo-light-189a80ba.js"];
+export const css = ["assets/vendor-28d9e71a.css","assets/pages/authenticationInner/AuthSlider.svelte-e7fb34cc.css"];

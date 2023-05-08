@@ -1511,7 +1511,7 @@ $toast-header-border-color:         rgba($black, .05);
 // Badges
 
 // scss-docs-start badge-variables
-$badge-font-size:                   .75em;
+$badge-font-size:                   1em;
 $badge-font-weight:                 $font-weight-semibold;
 $badge-color:                       $white;
 $badge-padding-y:                   .35em;
@@ -1739,7 +1739,7 @@ $btn-close-white-filter:     invert(1) grayscale(100%) brightness(200%);
 // scss-docs-start offcanvas-variables
 $offcanvas-padding-y:               $modal-inner-padding;
 $offcanvas-padding-x:               $modal-inner-padding;
-$offcanvas-horizontal-width:        400px;
+$offcanvas-horizontal-width:        700px;
 $offcanvas-vertical-height:         30vh;
 $offcanvas-transition-duration:     .3s;
 $offcanvas-border-color:            $modal-content-border-color;

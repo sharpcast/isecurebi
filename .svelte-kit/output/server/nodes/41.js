@@ -1,6 +1,6 @@
-import * as module from '../entries/pages/dashboard-projects/PrjectsStatusCharts.svelte.js';
+import * as module from '../entries/pages/rules/viewrules.svelte.js';
 
 export { module };
-export const entry = 'pages/dashboard-projects/PrjectsStatusCharts.svelte-eef7358a.js';
-export const js = ["pages/dashboard-projects/PrjectsStatusCharts.svelte-eef7358a.js","chunks/vendor-bc251f35.js"];
-export const css = ["assets/vendor-84faa040.css"];
+export const entry = 'pages/rules/viewrules.svelte-cb4e7285.js';
+export const js = ["pages/rules/viewrules.svelte-cb4e7285.js","chunks/vendor-28b6e00c.js"];
+export const css = ["assets/vendor-28d9e71a.css"];

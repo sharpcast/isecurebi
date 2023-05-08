@@ -1,13 +1,13 @@
-import { c as create_ssr_component, v as validate_component, d as add_attribute } from "../../../../chunks/index-584434b3.js";
-import { L as Link } from "../../../../chunks/Link-71b36253.js";
-import { C as Card } from "../../../../chunks/Card-f8372b29.js";
-import { C as CardBody } from "../../../../chunks/CardBody-1c493a94.js";
-import { C as Col } from "../../../../chunks/Col-cf9b7547.js";
-import { C as Container } from "../../../../chunks/Container-157811c5.js";
-import "../../../../chunks/Offcanvas.svelte_svelte_type_style_lang-0a4a6cc1.js";
-import { R as Row } from "../../../../chunks/Row-089822f8.js";
+import { c as create_ssr_component, v as validate_component, k as add_attribute } from "../../../../chunks/index-aeca7bd0.js";
+import { L as Link } from "../../../../chunks/Link-ec28a239.js";
+import { C as Card } from "../../../../chunks/Card-4d474cdd.js";
+import { C as CardBody } from "../../../../chunks/CardBody-908b7052.js";
+import { C as Col } from "../../../../chunks/Col-eedb9365.js";
+import { C as Container } from "../../../../chunks/Container-17fe0983.js";
+import "../../../../chunks/Offcanvas.svelte_svelte_type_style_lang-145966ab.js";
+import { R as Row } from "../../../../chunks/Row-d6617eb9.js";
 import ParticlesAuth from "../ParticlesAuth.svelte.js";
-import { L as LogoLight } from "../../../../chunks/logo-light-461ccdee.js";
+import { l as logolight } from "../../../../chunks/logo-light-189a80ba.js";
 import "tsparticles";
 const Auth_success_msg_basic = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${$$result.head += `${$$result.title = `<title>Success Message | Velzon - Svelte Admin &amp; Dashboard Template</title>`, ""}`, ""}
@@ -24,7 +24,7 @@ const Auth_success_msg_basic = create_ssr_component(($$result, $$props, $$bindin
                     class: "d-inline-block auth-logo"
                   }, {}, {
                     default: () => {
-                      return `<img${add_attribute("src", LogoLight, 0)} alt="${""}" height="${"20"}">`;
+                      return `<img${add_attribute("src", logolight, 0)} alt="${""}" height="${"20"}">`;
                     }
                   })}</div>
                             <p class="${"mt-3 fs-15 fw-medium"}">Premium Admin &amp; Dashboard Template
